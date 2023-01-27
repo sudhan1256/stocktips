@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-container {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        i{
+            padding-left: 120px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="form-container">
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" name="name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" name="email" required>
+
+                
+                <label>Message</label>
+                <textarea placeholder="Enter your message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+            <a href="https://wa.me/919345716424?text=hi"><i class="fa fa-whatsapp fa-2x"></i></a>
+            <a href="mailto:mail@example.com"><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="https://telegram.me/tarmanau"><i class="fa fa-telegram fa-2x"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

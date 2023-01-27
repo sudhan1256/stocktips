@@ -1,0 +1,36 @@
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .about-button:hover {
+    background-color: #555;
+  }
+  
+  .about-hidden {
+    display: none;
+  }
+  
