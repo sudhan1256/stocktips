@@ -4,14 +4,13 @@
 
 h1{
 	color: red;
-	margin: 110px;
-	margin-bottom: 180px;
+	margin: 120px;
+	margin-bottom: 90px;
 	}
 #quote{
 	color: #bc0000;
 	font-size: medium;
 	font-family: "Courier New", Courier, monospace;
-}
 body 
 {
 	/*display: flex;
