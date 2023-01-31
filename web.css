@@ -7,6 +7,11 @@ h1{
 	margin: 110px;
 	margin-bottom: 180px;
 	}
+#quote{
+	color: #bc0000;
+	font-size: medium;
+	font-family: "Courier New", Courier, monospace;
+}
 body 
 {
 	/*display: flex;
