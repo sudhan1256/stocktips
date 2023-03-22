@@ -29,17 +29,14 @@
     height: max-content;}
     .topnav a{
         float: right;
-        color: #f2f2f2;
+        color: black;
         padding: 14px 16px;}
     .demo {
       margin: 0%;
       float: left;
       font-size: xx-large;
       padding: 5px 20px;
-    }    
-    .topnav a:hover{
-        background-color: red; 
-    }
+    }  
     fieldset{
         margin: 10px;
         border-radius: 12px;
