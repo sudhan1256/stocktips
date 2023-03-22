@@ -5,14 +5,14 @@
     background-size: cover;
     background-color: black;
     }
-    .left{
+    .list-group{
         margin: 0;
         position: fixed;
         height:100%;
         overflow-y:scroll;
         width: 270px;
         }
-    .left::-webkit-scrollbar{
+    .list-group::-webkit-scrollbar{
         display: none;
     }
     .right{
@@ -42,7 +42,7 @@
         border-radius: 12px;
         border-color: red;
     }
-    .red{
+    .list-group-item{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -54,7 +54,7 @@
     
     }
    
-    .red:hover
+    .list-group-item:hover
     {
     color: black;
     background-color: red;
