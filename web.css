@@ -184,7 +184,7 @@ ul li:last-child::after
   }
   
   
-  .title-text {
+  .text-center {
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
