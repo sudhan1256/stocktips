@@ -5,14 +5,14 @@
     background-size: cover;
     background-color: black;
     }
-    .list-group{
+    .left{
         margin: 0;
         position: fixed;
         height:100%;
         overflow-y:scroll;
         width: 270px;
         }
-    .list-group::-webkit-scrollbar{
+    .left::-webkit-scrollbar{
         display: none;
     }
     .right{
@@ -29,20 +29,23 @@
     height: max-content;}
     .topnav a{
         float: right;
-        color: black;
+        color: #f2f2f2;
         padding: 14px 16px;}
     .demo {
       margin: 0%;
       float: left;
       font-size: xx-large;
       padding: 5px 20px;
-    }  
+    }    
+    .topnav a:hover{
+        background-color: red; 
+    }
     fieldset{
         margin: 10px;
         border-radius: 12px;
         border-color: red;
     }
-    .list-group-item{
+    .red{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -54,7 +57,7 @@
     
     }
    
-    .list-group-item:hover
+    .red:hover
     {
     color: black;
     background-color: red;
