@@ -184,7 +184,7 @@ ul li:last-child::after
   }
   
   
-  .text-center {
+  .h1{
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -192,7 +192,7 @@ ul li:last-child::after
 	color:red;
 	margin-top: 10px;
   }
-  .stylish-button {
+  .stylish-buttonz {
     background-color: #ffff; /* Green */
     color: #bc0000;
     font-size: 16px;
